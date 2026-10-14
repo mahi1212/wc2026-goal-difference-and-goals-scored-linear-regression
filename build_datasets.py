@@ -141,8 +141,8 @@ lr21 = pd.DataFrame({
     "home_team": home.team,
     "away_team": home.opp,
     "goal_diff": home.gf - home.ga,                          # TARGET (home - away)
-    "rank_diff": home.opp_rank - home["rank"],               # + favours home team
-    "host_adv_diff": home.in_own_country - home.opp_in_own_country,
+    "rank_dif": home.opp_rank - home["rank"],               # + favours home team
+    "host_adv_dif": home.in_own_country - home.opp_in_own_country,
     "knockout": home.knockout,
     "rest_days_diff": home.rest_days - home.opp_rest_days,
     "goals_for_avg_diff": (home.gf_avg - home.opp_gf_avg).round(3),

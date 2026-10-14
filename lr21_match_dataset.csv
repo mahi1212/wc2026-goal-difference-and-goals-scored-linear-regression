@@ -1,4 +1,4 @@
-﻿match_id,home_team,away_team,goal_diff,rank_diff,host_adv_diff,knockout,rest_days_diff,goals_for_avg_diff,goals_against_avg_diff,sot_avg_diff,possession_avg_diff
+﻿match_id,home_team,away_team,goal_diff,rank_dif,host_adv_diff,knockout,rest_days_diff,goals_for_avg_diff,goals_against_avg_diff,sot_avg_diff,possession_avg_diff
 1,Mexico,South Africa,2,46,1,0,0,0.0,0.0,0.0,0.0
 2,Korea Republic,Czechia,1,15,0,0,0,0.0,0.0,0.0,0.0
 3,Canada,Bosnia–Herz,0,34,1,0,0,0.0,0.0,0.0,0.0
