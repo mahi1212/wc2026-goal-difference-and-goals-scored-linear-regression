@@ -156,7 +156,7 @@ plt.tight_layout()
 plt.savefig("fig_corr.png", dpi=200)
 plt.close()
 
-# ---------------------------------------------------------------- console summary
+# ---------------------------------------------------------------- console summary ------------
 for name, r in results.items():
     print(f"\n=== Model {name} (n={r['n']}) ===")
     print(f"R2={r['full']['r2']:.3f} adjR2={r['full']['adj_r2']:.3f} F p={r['full']['f_p']:.2g}")
