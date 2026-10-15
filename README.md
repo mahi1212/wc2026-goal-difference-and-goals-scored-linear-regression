@@ -3,7 +3,7 @@
 Group project, Assessment 3.
 
 ## Files
-- `matches.csv` - raw match-level data (104 matches)
+- `matches.csv` - raw match-level data of 104 matches
 - `build_datasets.py` - wrangling: builds both regression datasets from `matches.csv` (+ FIFA ranking of 11 June 2026, hard-coded in the script)
 - `lr21_match_dataset.csv` - Model 2.1 dataset (104 rows, target `goal_diff`, 8 explanatory variables)
 - `lr22_teammatch_dataset.csv` - Model 2.2 dataset (208 rows, target `goals_scored`, 8 explanatory variables)
